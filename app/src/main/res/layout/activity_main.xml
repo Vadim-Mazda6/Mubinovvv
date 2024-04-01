@@ -45,7 +45,7 @@
             android:id="@+id/btnNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="nextButtonClick"
+            android:onClick="Next"
             android:text="Next" />
     </LinearLayout>
 </ScrollView>
