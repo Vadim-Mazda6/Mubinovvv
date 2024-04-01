@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="МАЗДА6"
+        android:textSize="43dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nДВИЖЕНИЕ – ЭТО СТРАСТЬ
+                      Дорога дана нам для того, чтобы наслаждаться крутизной каждого поворота, своим телом чувствовать ритм ускорений и торможений, слиться с автомобилем в единое целое. Спортивный стиль, мощь турбированного двигателя Skyactiv-G 2.5T, инновационная система G-Vectoring Сontrol Plus для отточенной управляемости. Mazda6 – ваш идеальный инструмент по превращению расстояний в эмоции."
+        android:textSize="34dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Первое поколение"
+        android:layout_marginTop="34dp"
+        android:textSize="43dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nАвтомобиль, построенный на общей платформе с моделью Ford Mondeo, на внутреннем японском и европейском рынках стал продаваться с 2002 года, российские продажи Mazda6 первого поколения стартовали в 2003. В конце февраля 2006 года объём производства модели Mazda6 по всему миру превысил 1 миллион экземпляров. В 2006 году модель претерпела рестайлинг."
+        android:textSize="34dp"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextButtonClick"
+            android:text="Next" />
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
